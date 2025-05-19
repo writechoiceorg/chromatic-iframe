@@ -1,0 +1,28 @@
+yarn run v1.22.22
+$ storybook build --output-dir=/var/folders/mb/w_rr1ycx2dx81_r51ydrssjh0000gn/T/chromatic--93457-pqL0WZa1gnUO
+[1m@storybook/core v8.6.12
+[22m
+info => Cleaning outputDir: [36m../../../../../var/folders/mb/w_rr1ycx2dx81_r51ydrssjh0000gn/T/chromatic--93457-pqL0WZa1gnUO[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m43 ms[39m)
+info => Building preview..
+info => Using implicit CSS loaders
+info => Using SWC as compiler
+info => Using default Webpack5 setup
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   635.f273334b.iframe.bundle.js (463 KiB)
+WARN   496.18713340.iframe.bundle.js (830 KiB)
+WARN   602.278afe08.iframe.bundle.js (1.62 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.63 MiB)
+WARN       runtime~main.114bb770.iframe.bundle.js
+WARN       602.278afe08.iframe.bundle.js
+WARN       main.e20220a7.iframe.bundle.js
+WARN 
+info => Preview built ([38;2;181;126;229m4.77 s[39m)
+info => Output directory: /var/folders/mb/w_rr1ycx2dx81_r51ydrssjh0000gn/T/chromatic--93457-pqL0WZa1gnUO
+Done in 5.63s.
