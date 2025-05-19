@@ -6,12 +6,12 @@ import {
   Name,
   Socials,
 } from '@coinbase/onchainkit/identity';
-import App from "./App";
+import App from "../App";
 import type { Meta, StoryObj } from "@storybook/react";
 import { base, mainnet } from 'viem/chains';
 
 const meta = {
-  title: "OnchainKit/IdentitySocials",
+  title: "OnchainKit/Identity/Socials",
   component: Socials,
   parameters: {
     layout: "centered",

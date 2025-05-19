@@ -15,14 +15,14 @@ import {
   Identity,
   EthBalance,
 } from '@coinbase/onchainkit/identity';
-import { walletDropdownLinkCustomBaseIconSvg } from './components/svg/walletDropdownLinkCustomBaseIconSvg';
+import { walletDropdownLinkCustomBaseIconSvg } from '../components/svg/walletDropdownLinkCustomBaseIconSvg';
 import { color } from '@coinbase/onchainkit/theme';
-import WalletComponents from './components/WalletComponents';
-import AppWithWalletModal from './components/AppWithWalletModal';
+import WalletComponents from '../components/WalletComponents';
+import AppWithWalletModal from '../components/AppWithWalletModal';
 
 
 const meta = {
-  title: 'OnchainKit/WalletFundLink',
+  title: 'OnchainKit/Wallet/FundLink',
   component: WalletComponents,
   parameters: {
     layout: 'centered',

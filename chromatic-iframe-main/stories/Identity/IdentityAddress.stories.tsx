@@ -1,9 +1,9 @@
 import { Address } from '@coinbase/onchainkit/identity';
-import App from "./App";
+import App from "../App";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
-  title: "OnchainKit/IdentityAddress",
+  title: "OnchainKit/Identity/Address",
   component: Address,
   parameters: {
     layout: "centered",

@@ -1,8 +1,8 @@
 // src/stories/Swap.stories.tsx
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import App from './App';
-import SwapWrapper from './components/SwapWrapper';
+import App from '../App';
+import SwapWrapper from '../components/SwapWrapper';
 import {
   SwapDefault,
   Swap,
@@ -12,11 +12,11 @@ import {
   SwapMessage,
   SwapToast,
 } from '@coinbase/onchainkit/swap';
-import ConnectUI from './components/ConnectUI';
+import ConnectUI from '../components/ConnectUI';
 
 
 const meta = {
-  title: 'OnchainKit/Swap',
+  title: 'OnchainKit/Swap/Swap',
   component: SwapDefault,
   parameters: { layout: 'centered' },
   tags: ['autodocs'],

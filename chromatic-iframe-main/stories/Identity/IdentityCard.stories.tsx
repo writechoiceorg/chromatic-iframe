@@ -1,10 +1,10 @@
 import { IdentityCard } from "@coinbase/onchainkit/identity";
 import { base } from "viem/chains";
-import App from "./App";
+import App from "../App";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
-  title: "OnchainKit/IdentityCard",
+  title: "OnchainKit/Identity/Card",
   component: IdentityCard,
   parameters: {
     layout: "centered",

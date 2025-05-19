@@ -12,13 +12,13 @@ import {
   SwapSettingsSlippageDescription,
   SwapSettingsSlippageInput,
 } from '@coinbase/onchainkit/swap';
-import ConnectUI from './components/ConnectUI';
-import App from './App';
-import SwapWrapper from './components/SwapWrapper';
-import { walletDropdownLinkCustomBaseIconSvg } from './components/svg/walletDropdownLinkCustomBaseIconSvg';
+import ConnectUI from '../components/ConnectUI';
+import App from '../App';
+import SwapWrapper from '../components/SwapWrapper';
+import { walletDropdownLinkCustomBaseIconSvg } from '../components/svg/walletDropdownLinkCustomBaseIconSvg';
 
 const meta = {
-  title: 'OnchainKit/SwapSettings',
+  title: 'OnchainKit/Swap/Settings',
   component: SwapSettings,
   parameters: {
     layout: 'centered',

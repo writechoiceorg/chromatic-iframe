@@ -1,9 +1,9 @@
 import { Avatar, Badge, Identity, Name } from '@coinbase/onchainkit/identity';
-import App from "./App";
+import App from "../App";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
-  title: "OnchainKit/IdentityBadge",
+  title: "OnchainKit/Identity/Badge",
   component: Badge,
   parameters: {
     layout: "centered",

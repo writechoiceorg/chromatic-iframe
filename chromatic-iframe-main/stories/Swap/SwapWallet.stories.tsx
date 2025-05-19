@@ -1,9 +1,9 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { SwapDefault } from '@coinbase/onchainkit/swap';
-import App from './App';
-import SwapWrapper from './components/SwapWrapper';
-import ConnectUI from './components/ConnectUI';
+import App from '../App';
+import SwapWrapper from '../components/SwapWrapper';
+import ConnectUI from '../components/ConnectUI';
 
 
 type SwapWalletProps = {
@@ -31,7 +31,7 @@ const SwapWallet: React.FC<SwapWalletProps> = ({ connected, fromTokens, toTokens
 );
 
 const meta = {
-  title: 'OnchainKit/SwapWallet',
+  title: 'OnchainKit/Swap/Wallet',
   component: SwapWallet,
   parameters: {
     layout: 'centered',

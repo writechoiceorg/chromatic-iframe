@@ -13,12 +13,12 @@ import {
   Identity,
   EthBalance,
 } from '@coinbase/onchainkit/identity';
-import WalletComponents from './components/WalletComponents';
-import AppWithWalletModal from './components/AppWithWalletModal';
+import WalletComponents from '../components/WalletComponents';
+import AppWithWalletModal from '../components/AppWithWalletModal';
 
 
 const meta = {
-  title: 'OnchainKit/WalletModal',
+  title: 'OnchainKit/Wallet/Modal',
   component: WalletComponents,
   parameters: {
     layout: 'centered',

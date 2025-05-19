@@ -16,11 +16,11 @@ import {
   EthBalance,
 } from '@coinbase/onchainkit/identity';
 import { color } from '@coinbase/onchainkit/theme';
-import WalletComponents from './components/WalletComponents';
-import AppWithWalletModal from './components/AppWithWalletModal';
+import WalletComponents from '../components/WalletComponents';
+import AppWithWalletModal from '../components/AppWithWalletModal';
 
 const meta = {
-  title: 'OnchainKit/WalletBasename',
+  title: 'OnchainKit/Wallet/Basename',
   component: WalletComponents,
   parameters: {
     layout: 'centered',

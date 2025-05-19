@@ -1,10 +1,10 @@
 import { Avatar, Badge, Identity } from '@coinbase/onchainkit/identity';
-import App from "./App";
+import App from "../App";
 import type { Meta, StoryObj } from "@storybook/react";
 import { base } from 'viem/chains';
 
 const meta = {
-  title: "OnchainKit/IdentityAvatar",
+  title: "OnchainKit/Identity/Avatar",
   component: Avatar,
   parameters: {
     layout: "centered",

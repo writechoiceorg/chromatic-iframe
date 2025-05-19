@@ -15,12 +15,12 @@ import {
   Avatar,
   Name,
 } from '@coinbase/onchainkit/identity';
-import WalletComponents from './components/WalletComponents';
-import AppWithWalletModal from './components/AppWithWalletModal';
+import WalletComponents from '../components/WalletComponents';
+import AppWithWalletModal from '../components/AppWithWalletModal';
 
 
 const meta = {
-  title: 'OnchainKit/WalletIsland',
+  title: 'OnchainKit/Wallet/Island',
   component: WalletComponents,
   parameters: {
     layout: 'centered',
