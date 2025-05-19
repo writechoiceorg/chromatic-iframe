@@ -1,14 +1,14 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
-import Button from '../Button/index.tsx';
+import Button from '../Button/index';
 import {
   createCoinbaseWalletSDK,
   getCryptoKeyAccount,
   ProviderInterface,
 } from '@coinbase/wallet-sdk-canary';
 import { Address } from '@coinbase/onchainkit/identity';
-import { SubAccountIllustration } from '@/components/smart-wallet/Illustration.tsx';
+import { SubAccountIllustration } from './Illustration';
 
 type Signer = Awaited<ReturnType<typeof getCryptoKeyAccount>>;
 const BASE_SEPOLIA_CHAIN_ID = 84532;

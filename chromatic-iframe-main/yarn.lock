@@ -920,6 +920,20 @@
     viem "^2.27.2"
     wagmi "^2.14.11"
 
+"@coinbase/wallet-sdk-canary@npm:@coinbase/wallet-sdk@4.4.0-canary.1":
+  version "4.4.0-canary.1"
+  resolved "https://registry.npmjs.org/@coinbase/wallet-sdk/-/wallet-sdk-4.4.0-canary.1.tgz"
+  integrity sha512-Bu0IcVpxeflucIlJrUvl7UTC1uqgiK6gYSERXFtVesysaghRZLsT/y6BFCxJUwL8iqa179xydnMvj5WU3E1XHQ==
+  dependencies:
+    "@noble/hashes" "1.4.0"
+    clsx "1.2.1"
+    eventemitter3 "5.0.1"
+    idb-keyval "6.2.1"
+    ox "0.6.9"
+    preact "10.24.2"
+    viem "2.22.17"
+    zustand "5.0.3"
+
 "@coinbase/wallet-sdk@4.3.0":
   version "4.3.0"
   resolved "https://registry.npmjs.org/@coinbase/wallet-sdk/-/wallet-sdk-4.3.0.tgz"
@@ -3369,6 +3383,11 @@ clsx@^2.1.1:
   resolved "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz"
   integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
 
+clsx@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -5042,6 +5061,11 @@ idb-keyval@^6.2.1:
   resolved "https://registry.npmjs.org/idb-keyval/-/idb-keyval-6.2.2.tgz"
   integrity sha512-yjD9nARJ/jb1g+CvD0tlhUHOrJ9Sy0P8T9MF3YaLlHnSRpwPfpTX0XIvpmw3gAJUmEu3FiICLBDPXVwyEvrleg==
 
+idb-keyval@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/idb-keyval/-/idb-keyval-6.2.1.tgz"
+  integrity sha512-8Sb3veuYCyrZL+VBt9LJfZjLUPWVvqn8tG28VqYNFCo43KHcKuq+b4EiXGeuaLAQWL2YmyDgMp2aSpH9JHsEQg==
+
 ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
@@ -6528,6 +6552,11 @@ preact@^10.16.0, preact@^10.24.2:
   version "10.26.6"
   resolved "https://registry.npmjs.org/preact/-/preact-10.26.6.tgz"
   integrity sha512-5SRRBinwpwkaD+OqlBDeITlRgvd8I8QlxHJw9AxSdMNV6O+LodN9nUyYGpSF7sadHjs6RzeFShMexC6DbtWr9g==
+
+preact@10.24.2:
+  version "10.24.2"
+  resolved "https://registry.npmjs.org/preact/-/preact-10.24.2.tgz"
+  integrity sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -8068,6 +8097,20 @@ viem@^2.1.1, viem@^2.21.55, viem@^2.27.2, viem@^2.29.3, viem@>=2.23.11, viem@2.x
     ox "0.6.9"
     ws "8.18.1"
 
+viem@2.22.17:
+  version "2.22.17"
+  resolved "https://registry.npmjs.org/viem/-/viem-2.22.17.tgz"
+  integrity sha512-eqNhlPGgRLR29XEVUT2uuaoEyMiaQZEKx63xT1py9OYsE+ZwlVgjnfrqbXad7Flg2iJ0Bs5Hh7o0FfRWUJGHvg==
+  dependencies:
+    "@noble/curves" "1.8.1"
+    "@noble/hashes" "1.7.1"
+    "@scure/bip32" "1.6.2"
+    "@scure/bip39" "1.5.4"
+    abitype "1.0.8"
+    isows "1.0.6"
+    ox "0.6.7"
+    ws "8.18.0"
+
 viem@2.23.2:
   version "2.23.2"
   resolved "https://registry.npmjs.org/viem/-/viem-2.23.2.tgz"
@@ -8388,3 +8431,8 @@ zustand@5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/zustand/-/zustand-5.0.0.tgz"
   integrity sha512-LE+VcmbartOPM+auOjCCLQOsQ05zUTp8RkgwRzefUk+2jISdMMFnxvyTjA4YNWr5ZGXYbVsEMZosttuxUBkojQ==
+
+zustand@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.npmjs.org/zustand/-/zustand-5.0.3.tgz"
+  integrity sha512-14fwWQtU3pH4dE0dOpdMiWjddcH+QzKIgk1cl8epwSE7yag43k/AD/m4L6+K7DytAOr9gGBe3/EXj9g7cdostg==

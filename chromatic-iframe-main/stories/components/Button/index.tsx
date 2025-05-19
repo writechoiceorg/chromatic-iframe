@@ -1,9 +1,8 @@
 'use client';
 
 import { ButtonHTMLAttributes } from 'react';
-import classNames from 'classnames';
-import { Icon, IconProps } from '../base-org/Icon/Icon.tsx';
-import { ButtonVariants, ButtonSizes } from './types.ts';
+import { Icon, IconProps } from '../base-org/Icon/Icon';
+import { ButtonVariants, ButtonSizes } from './types';
 
 export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   connectWallet?: boolean;
@@ -55,32 +54,19 @@ export default function Button({
   className,
   fullWidth = false,
 }: ButtonProps) {
-  const buttonClasses = classNames(
-    // Shared - base
+  const buttonClasses = [
     'text-md px-4 py-2 whitespace-nowrap',
-
-    // Shared - layout
     'flex items-center justify-center',
-
-    // Shared - Disabled
     'disabled:opacity-40 disabled:pointer-events-none',
-
-    // Shared - transition
     'transition-all',
-
-    // Variants
-    variantStyles[variant],
-
-    // Sizes
-    sizeStyles[size],
-
-    // Rounded, mostly for connect wallet
+    variantStyles[variant],                // your variant styles lookup
+    sizeStyles[size],                      // your size styles lookup
     roundedFull ? 'rounded-full' : 'rounded-lg',
-
-    fullWidth ? 'w-full' : 'w-auto',
-
-    className,
-  );
+    fullWidth   ? 'w-full'       : 'w-auto',
+    className,                             // any extra classes passed in
+  ]
+    .filter(Boolean)       // remove empty strings or undefined
+    .join(' '); 
 
   const iconSize = sizeIconRatio[size];
 
