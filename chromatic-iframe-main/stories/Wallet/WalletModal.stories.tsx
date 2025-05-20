@@ -15,7 +15,7 @@ import {
 } from '@coinbase/onchainkit/identity';
 import WalletComponents from '../components/WalletComponents';
 import AppWithWalletModal from '../components/AppWithWalletModal';
-
+import { color } from '@coinbase/onchainkit/theme';
 
 const meta = {
   title: 'OnchainKit/Wallet/Modal',

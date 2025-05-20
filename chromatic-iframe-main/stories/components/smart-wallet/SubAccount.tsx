@@ -1,5 +1,3 @@
-'use client';
-
 import { useCallback, useEffect, useState } from 'react';
 import Button from '../Button/index';
 import {
@@ -19,7 +17,7 @@ export default function SubAccount() {
 
   const [universalAccount, setUniversalAccount] = useState<string | null>(null);
   const [subAccount, setSubAccount] = useState<string | null>(null);
-
+  
   useEffect(() => {
     const walletProvider = createCoinbaseWalletSDK({
       appName: 'Smart Wallet Doc',
@@ -42,7 +40,7 @@ export default function SubAccount() {
 
     void loadKey();
   }, []);
-
+  
   const createSubAccount = useCallback(async () => {
     if (!provider || !signer?.account) return;
 
@@ -104,6 +102,7 @@ export default function SubAccount() {
     alert(`Sign was successful: ${hash}`);
   }, [provider, signer?.account, subAccount]);
 
+
   return subAccount ? (
     universalAccount && subAccount && (
       <SubAccountIllustration
@@ -116,7 +115,7 @@ export default function SubAccount() {
   ) : (
     <Button
       className="border-none bg-sky-600"
-      onClick={createSubAccount}
+      // onClick={createSubAccount}
       disabled={!(signer && provider)}
     >
       Create Sub Account

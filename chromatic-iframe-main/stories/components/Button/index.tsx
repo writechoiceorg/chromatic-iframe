@@ -1,5 +1,3 @@
-'use client';
-
 import { ButtonHTMLAttributes } from 'react';
 import { Icon, IconProps } from '../base-org/Icon/Icon';
 import { ButtonVariants, ButtonSizes } from './types';
@@ -55,19 +53,19 @@ export default function Button({
   fullWidth = false,
 }: ButtonProps) {
   const buttonClasses = [
+    'bg-black',
     'text-md px-4 py-2 whitespace-nowrap',
     'flex items-center justify-center',
     'disabled:opacity-40 disabled:pointer-events-none',
     'transition-all',
-    variantStyles[variant],                // your variant styles lookup
-    sizeStyles[size],                      // your size styles lookup
+    variantStyles[variant],
+    sizeStyles[size],
     roundedFull ? 'rounded-full' : 'rounded-lg',
     fullWidth   ? 'w-full'       : 'w-auto',
-    className,                             // any extra classes passed in
+    className,
   ]
-    .filter(Boolean)       // remove empty strings or undefined
-    .join(' '); 
-
+    .filter(Boolean)
+    .join(' ');
   const iconSize = sizeIconRatio[size];
 
   return (

@@ -1,4 +1,3 @@
-// src/stories/FundWrapper.stories.tsx
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import App from './App';
